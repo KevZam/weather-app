@@ -11,6 +11,8 @@ app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
 
+
+// main post for page
 app.post("/", function (req, res) {
   const query = req.body.cityName;
   const apiKey = "4fc118991df4a626ff27864834b47fdf";
